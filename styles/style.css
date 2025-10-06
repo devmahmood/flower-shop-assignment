@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+button {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 1);
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  padding: 15px 28px;
+  cursor: pointer;
+}
+button:hover {
+  background: rgb(189, 22, 58);
+}
+.container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.section-heading {
+  max-width: 500px;
+  text-align: center;
+  margin: 20px auto;
+}
+.section-heading h2 {
+  color: rgba(39, 39, 39, 1);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner .banner-text h1 {
+  color: rgba(39, 39, 39, 1);
+  font-size: 60px;
+  font-weight: 800;
+  line-height: normal;
+  font-style: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.banner .banner-text * {
+  margin-bottom: 32px;
+  max-width: 525px;
+}
+.banner .banner-img img {
+  width: 100%;
+  vertical-align: middle;
+}
+#featured {
+  padding: 100px 0;
+}
+.section-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 50px;
+}
+.section-heading p {
+  text-align: center;
+}
+.section-content .flower .flower-img {
+  border-radius: 300px 300px 0px 0px;
+  padding: 30px 30px 0;
+  height: 400px;
+  display: flex;
+  align-items: end;
+}
+.section-content .flower .flower-img img {
+  width: 100%;
+}
+.section-content .flower .purple {
+  background: rgba(167, 33, 98, 0.15);
+}
+.section-content .flower .blue {
+  background: rgba(5, 151, 160, 0.15);
+}
+.section-content .flower .green {
+  background: rgba(71, 125, 17, 0.15);
+}
+.section-content .flower p {
+  color: rgba(39, 39, 39, 1);
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.features {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+  text-align: center;
+}
+#discount {
+  background: rgba(229, 84, 115, 0.1);
+  margin-bottom: 100px;
+}
+#discount .content {
+  width: 75%;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 70px;
+}
+#discount .content .main-text {
+  text-align: center;
+  max-width: 550px;
+}
+#discount .content .main-text h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+#discount .content .main-text * {
+  margin-bottom: 15px;
+}
+#discount .content .main-text .imp {
+  color: rgba(229, 84, 115, 1);
+}
+#discount .content .main-text p {
+  text-align: center;
+}
+#discount .content .discount-img img {
+  width: 100%;
+}
+#gallery {
+  margin-bottom: 100px;
+}
+#gallery .gallery-contents {
+  display: flex;
+  justify-content: space-between;
+}
+#gallery .gallery-contents .images img {
+  max-width: 230px;
+}
+#newsletter .newsletter-box {
+  background-image: url("../images/Rectangle 9.png");
+  padding: 85px 0;
+}
+#newsletter form {
+  max-width: 800px;
+  margin: 20px auto;
+  display: flex;
+  gap: 10px;
+}
+#newsletter form input {
+  flex-grow: 1;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+}
+footer {
+  background: rgba(17, 16, 16, 1);
+  margin-top: 100px;
+}
+footer * {
+  text-align: center;
+  margin-bottom: 20px;
+}
+footer .foot-content {
+  padding: 75px 0;
+  max-width: 500px;
+  margin: 20px auto;
+}
+footer .foot-content .imp {
+  color: rgba(229, 84, 115, 1);
+}
+footer h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+footer p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+footer .copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
